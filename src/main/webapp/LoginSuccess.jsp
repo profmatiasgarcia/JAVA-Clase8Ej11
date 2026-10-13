@@ -29,10 +29,10 @@
         }
         if(userName == null) response.sendRedirect("index.html");
     %>
-    <h3>Hi <%=userName%>, Login successful at <%=curseSelected%> curse.</h3>
+    <h3>Hola <%=userName%>, se ha logueado exitosamente en el curso <%=curseSelected%>.</h3>
     <br>
     <hr>
-    <h4><a href="MainPage.jsp"> Access to MainPage with sesion </a></h4>
+    <h4><a href="MainPage.jsp"> Accedio a la pagina principal con sesion </a></h4>
     <hr>
     <form action="LogoutServlet" method="post">
         <input type="submit" value="Logout" >

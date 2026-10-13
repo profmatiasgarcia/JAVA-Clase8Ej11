@@ -29,7 +29,7 @@
         }
         if(userName == null) response.sendRedirect("index.html");
     %>
-    <h3>You are still logged in as <%=userName%> at <%=curseSelected%> curse.</h3>
+    <h3>Sigues logueado como <%=userName%> al curso <%=curseSelected%>.</h3>
     <br>
     <hr>
     <form action="LogoutServlet" method="post">
